@@ -1,0 +1,54 @@
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+logs/
+##############################
+## Pojos
+##############################
+src/main/java/com/jcp/avro/
+src/main/java/com/jcpenney/
+src/main/java/META-INF/
+src/main/java/com/jcp/schema/
+##############################
+## Maven
+##############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+src/main/java/META-INF
+HELP.md
+
+##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+.aws-sam/
+sam-templates/
+
+##############################
+## OS X
+##############################
+.DS_Store
+/.gradle/
+/build/
+/reports/
